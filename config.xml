@@ -5,22 +5,27 @@
         version     = "1.0.0" >
 
 	<platform name="android" >
-	<splash src="res/screen/android/cat.png" density="land-hdpi"/>
-	<splash src="res/screen/android/cat.pngg"  density="land-ldpi"/>
-	<splash src="res/screen/android/cat.png"  density="land-mdpi"/>
-	<splash src="res/screen/android/cat.png" density="land-xhdpi"/>
-	<splash src="res/screen/android/cat.png"  density="port-hdpi"/>
-	<splash src="res/screen/android/cat.png" density="port-ldpi"/>
-	<splash src="res/screen/android/cat.png" density="port-mdpi"/>
-	<splash src="res/screen/android/cat.png"  density="port-xhdpi"/>
+        <splash density="land-mdpi" src="res/drawable-mdpi/splash.9.png" />
+        <splash density="land-hdpi" src="res/drawable-hdpi/splash.9.png" />
+        <splash density="land-xhdpi" src="res/drawable-xhdpi/splash.9.png" />
+        <splash density="land-xxhdpi" src="res/drawable-xxhdpi/splash.9.png" />
+        <splash density="land-xxxhdpi" src="res/drawable-xxxhdpi/splash.9.png" />
+        <splash density="port-mdpi" src="res/drawable-mdpi/splash.9.png" />
+        <splash density="port-hdpi" src="res/drawable-hdpi/splash.9.png" />
+        <splash density="port-xhdpi" src="res/drawable-xhdpi/splash.9.png" />
+        <splash density="port-xxhdpi" src="res/drawable-xxhdpi/splash.9.png" />
+		<splash density="port-xxxhdpi" src="res/drawable-xxxhdpi/splash.9.png" />
 	</platform>
 	
-	<preference name="SplashScreenDelay" value="10000" />
+	<splash src="splash.png" />
+	
+	<preference name="SplashScreen" value="screen"/>
+	<preference name="SplashScreenDelay" value="5000" />
 	
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
 	<plugin name="cordova-plugin-network-information" />
 	<plugin name="cordova-plugin-device-motion" />
-	<plugin name="cordova-plugin-splashscreen" />
+	<plugin name="cordova-plugin-splashscreen" source="npm"/>
 
 </widget>
