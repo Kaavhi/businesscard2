@@ -12,7 +12,7 @@
 	<plugin name="cordova-plugin-splashscreen" spec="5.0.2"/>
 	    
 	<platform name="android" >
-		<splash src="splash.png" />
+	        <preference name="ShowSplashScreenSpinner" value="false"/>
         <splash density="land-mdpi" src="businesscard2/www/res/drawable-mdpi/splash.9.png" />
         <splash density="land-hdpi" src="businesscard2/www/res/drawable-hdpi/splash.9.png" />
         <splash density="land-xhdpi" src="businesscard2/www/res/drawable-xhdpi/splash.9.png" />
