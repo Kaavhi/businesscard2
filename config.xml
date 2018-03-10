@@ -12,6 +12,7 @@
 	<plugin name="cordova-plugin-splashscreen" spec="5.0.2"/>
 	    
 	<platform name="android" >
+		<splash src="splash.png" />
         <splash density="land-mdpi" src="businesscard2/www/res/drawable-mdpi/splash.9.png" />
         <splash density="land-hdpi" src="businesscard2/www/res/drawable-hdpi/splash.9.png" />
         <splash density="land-xhdpi" src="businesscard2/www/res/drawable-xhdpi/splash.9.png" />
@@ -24,7 +25,7 @@
 	<splash density="port-xxxhdpi" src="businesscard2/www/res/drawable-xxxhdpi/splash.9.png" />
 	</platform>
 	
-	<preference name="SplashScreen"         value="screen"/>
+	<preference name="SplashScreen" value="splash" />
 	<preference name="AutoHideSplashScreen" value="true" />
 	<preference name="SplashScreenDelay" value="5000" />
 
