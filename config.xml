@@ -3,18 +3,19 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
 		id          = "myfirstapp"
         version     = "1.0.0" >
-
+	    
+	<name>Businesscard</name>
 	<platform name="android" >
-        <splash density="land-mdpi" src="res/drawable-mdpi/splash.9.png" />
-        <splash density="land-hdpi" src="res/drawable-hdpi/splash.9.png" />
-        <splash density="land-xhdpi" src="res/drawable-xhdpi/splash.9.png" />
-        <splash density="land-xxhdpi" src="res/drawable-xxhdpi/splash.9.png" />
-        <splash density="land-xxxhdpi" src="res/drawable-xxxhdpi/splash.9.png" />
-        <splash density="port-mdpi" src="res/drawable-mdpi/splash.9.png" />
-        <splash density="port-hdpi" src="res/drawable-hdpi/splash.9.png" />
-        <splash density="port-xhdpi" src="res/drawable-xhdpi/splash.9.png" />
-        <splash density="port-xxhdpi" src="res/drawable-xxhdpi/splash.9.png" />
-		<splash density="port-xxxhdpi" src="res/drawable-xxxhdpi/splash.9.png" />
+        <splash density="land-mdpi" src="www/res/drawable-mdpi/splash.9.png" />
+        <splash density="land-hdpi" src="www/res/drawable-hdpi/splash.9.png" />
+        <splash density="land-xhdpi" src="www/res/drawable-xhdpi/splash.9.png" />
+        <splash density="land-xxhdpi" src="www/res/drawable-xxhdpi/splash.9.png" />
+        <splash density="land-xxxhdpi" src="www/res/drawable-xxxhdpi/splash.9.png" />
+        <splash density="port-mdpi" src="www/res/drawable-mdpi/splash.9.png" />
+        <splash density="port-hdpi" src="www/res/drawable-hdpi/splash.9.png" />
+        <splash density="port-xhdpi" src="www/res/drawable-xhdpi/splash.9.png" />
+        <splash density="port-xxhdpi" src="www/res/drawable-xxhdpi/splash.9.png" />
+	<splash density="port-xxxhdpi" src="www/res/drawable-xxxhdpi/splash.9.png" />
 	</platform>
 	
 	<splash src="splash.png" />
