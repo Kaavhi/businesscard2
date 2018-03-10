@@ -1,17 +1,12 @@
 body {
-  padding-left: 11em;
+  padding-left: 4em;
   font-family: Georgia, "Times New Roman",
         Times, serif;
-  color: red;
-  background-color: black }
-ul.navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em }
-h1 {
-  font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif }
+ background-color: lightblue;
+}
+div {
+    background-color: lightgrey;
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
+}
