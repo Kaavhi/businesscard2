@@ -5,23 +5,6 @@
         version     = "1.0.0" >
 	    
 	<name>Businesscard</name>
-	<platform name="android" >
-        <splash density="land-mdpi" src="www/res/drawable-mdpi/splash.9.png" />
-        <splash density="land-hdpi" src="www/res/drawable-hdpi/splash.9.png" />
-        <splash density="land-xhdpi" src="www/res/drawable-xhdpi/splash.9.png" />
-        <splash density="land-xxhdpi" src="www/res/drawable-xxhdpi/splash.9.png" />
-        <splash density="land-xxxhdpi" src="www/res/drawable-xxxhdpi/splash.9.png" />
-        <splash density="port-mdpi" src="www/res/drawable-mdpi/splash.9.png" />
-        <splash density="port-hdpi" src="www/res/drawable-hdpi/splash.9.png" />
-        <splash density="port-xhdpi" src="www/res/drawable-xhdpi/splash.9.png" />
-        <splash density="port-xxhdpi" src="www/res/drawable-xxhdpi/splash.9.png" />
-	<splash density="port-xxxhdpi" src="www/res/drawable-xxxhdpi/splash.9.png" />
-	</platform>
-	
-	<splash src="index/splash.png" />
-	
-	<preference name="SplashScreen" value="screen"/>
-	<preference name="SplashScreenDelay" value="5000" />
 	
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
