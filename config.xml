@@ -22,16 +22,16 @@
    	<preference name="SplashMaintainAspectRatio" value="true" />
    	<preference name="SplashShowOnlyFirstTime" value="false" />
    	<preference name="SplashShowOnlyFirstTime" value="false" />
-        <splash density="land-mdpi" src="res/drawable-mdpi/splash.png" />
-        <splash density="land-hdpi" src="res/drawable-hdpi/splash.png" />
-        <splash density="land-xhdpi" src="res/drawable-xhdpi/splash.png" />
-        <splash density="land-xxhdpi" src="res/drawable-xxhdpi/splash.png" />
-        <splash density="land-xxxhdpi" src="res/drawable-xxxhdpi/splash.png" />
-        <splash density="port-mdpi" src="res/drawable-mdpi/splash.png" />
-        <splash density="port-hdpi" src="res/drawable-hdpi/splash.png" />
-        <splash density="port-xhdpi" src="res/drawable-xhdpi/splash.png" />
-        <splash density="port-xxhdpi" src="res/drawable-xxhdpi/splash.png" />
-	<splash density="port-xxxhdpi" src="res/drawable-xxxhdpi/splash.png" />
+        <splash qualifier="land-mdpi" src="res/drawable-mdpi/splash.png" />
+        <splash qualifier="land-hdpi" src="res/drawable-hdpi/splash.png" />
+        <splash qualifier="land-xhdpi" src="res/drawable-xhdpi/splash.png" />
+        <splash qualifier="land-xxhdpi" src="res/drawable-xxhdpi/splash.png" />
+        <splash qualifier="land-xxxhdpi" src="res/drawable-xxxhdpi/splash.png" />
+        <splash qualifier="port-mdpi" src="res/drawable-mdpi/splash.png" />
+        <splash qualifier="port-hdpi" src="res/drawable-hdpi/splash.png" />
+        <splash qualifier="port-xhdpi" src="res/drawable-xhdpi/splash.png" />
+        <splash qualifier="port-xxhdpi" src="res/drawable-xxhdpi/splash.png" />
+	<splash qualifier="port-xxxhdpi" src="res/drawable-xxxhdpi/splash.png" />
 	</platform>
 	
 </widget>
